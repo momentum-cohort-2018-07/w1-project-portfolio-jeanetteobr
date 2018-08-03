@@ -1,0 +1,35 @@
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: blue;
+}
+
+footer {
+    background-color: red;
+}
+
+html {
+    background-color: yellow;
+}
+.about-me {
+    padding-bottom: 15px;
+}
+
+.about-me__name, .edu__name, .ref__name, .employment__name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.employment {
+    padding-bottom: 15px;
+}
+
+.edu {
+    padding-bottom: 15px;
+}
+
+.ref {
+    padding-bottom: 15px;
+}
