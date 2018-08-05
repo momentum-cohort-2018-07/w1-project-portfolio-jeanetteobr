@@ -10,7 +10,7 @@ body {
 }
 .hr {
     height: 1px;
-    background: #4abdb3;;
+    background: #4abdb3;
     width: 75%;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -144,7 +144,7 @@ footer p {
 /* Projects */
 
 .project {
-    padding: 15px
+    padding: 20px 15px 35px;
 }
 
 .project__name {
@@ -170,7 +170,56 @@ footer p {
 
 /* Resume */
 
+.container__resume {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.employment__name, .edu__name, .ref__name {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.about-me__name, .ref__h1, .edu__h1, .employment__h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #4abdb3;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.hr__resume {
+    height: 1px;
+    background: #4abdb3;
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.edu, .ref, .employment, .about-me {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    line-height: 1.3rem;
+}
+
+.employment__position, .edu__location, .ref__email {
+    font-style: italic;
+    color: #4abdb3;
+}
+
+.about-me__phone {
+    padding-bottom: 5px;
+}
 @media screen and (max-width: 768px) {
+   
     /* Index */
     .social-icons {
         display: none;
@@ -181,7 +230,7 @@ footer p {
 
 @media screen and (min-width: 992px) {
     /* Index */
-    
+
     .header {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -242,4 +291,17 @@ footer p {
         max-width: 45%;
         padding-left: 15px;
     }
+
+    /* Resume */
+    
+    .container__resume {
+        padding-left: 15px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        max-width: 100%;
+    }
+
+  
 }
+
+
