@@ -10,13 +10,13 @@ body {
 }
 .hr {
     height: 1px;
-    background: #4abdb3;
+    background: #4abdb3;;
     width: 75%;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
 .flex-blurb {
-    /* border: solid 5px purple; */
     max-width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -98,7 +98,7 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 60px;
     max-width: 100%;
 }
 
@@ -124,9 +124,7 @@ footer p {
 }
 
 .flex-img {
-    /* border: solid 5px orange; */
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .flex-img img {
@@ -144,6 +142,31 @@ footer p {
 }
 
 /* Projects */
+
+.project {
+    padding: 15px
+}
+
+.project__name {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+    color: #4abdb3;
+}
+
+.project img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.project p {
+    max-width: 100%;
+}
+
+.project a {
+    color: gray;
+    text-decoration: none;
+}
 
 /* Resume */
 
