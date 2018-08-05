@@ -181,12 +181,14 @@ footer p {
 
 @media screen and (min-width: 992px) {
     /* Index */
+    
     .header {
         padding-top: 20px;
         padding-bottom: 20px;
     }
     .site-logo {
         max-width: 100px;
+        padding-bottom: 5px;
     }
     .main-menu__list {
         font-size: 25px;
@@ -221,7 +223,7 @@ footer p {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding-top: 100px;
+        margin-top: 10%;
     }
     
     .flex-blurb {
@@ -232,5 +234,12 @@ footer p {
 
     .flex-blurb__name, .flex-blurb__greet, .flex-blurb__title {
         text-align: left;
+    }
+
+    /* Projects */
+    
+    .project {
+        max-width: 45%;
+        padding-left: 15px;
     }
 }
