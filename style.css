@@ -144,7 +144,7 @@ footer p {
 /* Projects */
 
 .project {
-    padding: 20px 15px 35px;
+    padding: 20px 15px 15px;
 }
 
 .project__name {
@@ -218,6 +218,7 @@ footer p {
 .about-me__phone {
     padding-bottom: 5px;
 }
+
 @media screen and (max-width: 768px) {
    
     /* Index */
@@ -272,6 +273,7 @@ footer p {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        align-self: center;
         margin-top: 10%;
     }
     
@@ -288,10 +290,13 @@ footer p {
     /* Projects */
     
     .project {
-        max-width: 45%;
-        padding-left: 15px;
+        padding: 15px 15px 45px;
+        margin-top: -15px;
     }
-
+   
+    .project__links {
+        padding-bottom: 10px;
+    }
     /* Resume */
     
     .container__resume {
