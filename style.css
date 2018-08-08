@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 1.5em;
+}
+.hr {
+    height: 1px;
+    background: #4abdb3;
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.flex-blurb {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.flex-blurb h1 {
+    font-family: "Archivo Black", sans-serifl;
+    color: #4abdb3;
+    font-size: 50px;
+    line-height: 3rem;
+}
+
+.flex-blurb__name, .flex-blurb__greet, .flex-blurb__title {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color:#4abdb3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 5px 10px ;
+}
+
+footer p {
+    float: left; 
+    color: white;
+}
+
+/* Index */
+
+.main-menu__list-item {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+.social-icons__list-item {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.site-logo {
+   max-width: 50px;
+}
+
+.site-logo img {
+    max-width: 100%;
+}
+
+.site-header {
+    background-color: #4abdb3;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+.site-header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    flex-direction: inline;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    max-width: 100%;
+}
+
+.about-me {
+    padding-bottom: 15px;
+}
+
+.about-me__name, .edu__name, .ref__name, .employment__name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.employment {
+    padding-bottom: 15px;
+}
+
+.edu {
+    padding-bottom: 15px;
+}
+
+.ref {
+    padding-bottom: 15px;
+}
+
+.flex-img {
+    margin-top: 20px;
+}
+
+.flex-img img {
+    max-width: 100%;
+}
+
+.footer__social-li {
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.footer__social a{
+    color: white;
+}
+
+/* Projects */
+
+.project {
+    padding: 20px 15px 15px;
+}
+
+.project__name {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+    color: #4abdb3;
+}
+
+.project img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.project p {
+    max-width: 100%;
+}
+
+.project a {
+    color: gray;
+    text-decoration: none;
+}
+
+/* Resume */
+
+.container__resume {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.employment__name, .edu__name, .ref__name {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.about-me__name, .ref__h1, .edu__h1, .employment__h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #4abdb3;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.hr__resume {
+    height: 1px;
+    background: #4abdb3;
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.edu, .ref, .employment, .about-me {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    line-height: 1.3rem;
+}
+
+.employment__position, .edu__location, .ref__email {
+    font-style: italic;
+    color: #4abdb3;
+}
+
+.about-me__phone {
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+   
+    /* Index */
+    .social-icons {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (min-width: 992px) {
+    /* Index */
+
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .site-logo {
+        max-width: 100px;
+        padding-bottom: 5px;
+    }
+    .main-menu__list {
+        font-size: 25px;
+        padding: 15px;
+    }
+    .social-icons__list {
+        font-size: 30px;
+        padding: 15px
+    }
+
+    .social-icons__list-item {
+        padding-right: 30px;
+    }
+
+    .footer__social-li {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 100%; 
+        bottom: 0;
+    }
+
+    .hr {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-self: center;
+        margin-top: 10%;
+    }
+    
+    .flex-blurb {
+        max-width: 50%;
+        justify-content: end;
+        margin-top: 100px;
+    }
+
+    .flex-blurb__name, .flex-blurb__greet, .flex-blurb__title {
+        text-align: left;
+    }
+
+    /* Projects */
+    
+    .project {
+        padding: 15px 15px 45px;
+        margin-top: -15px;
+    }
+   
+    .project__links {
+        padding-bottom: 10px;
+    }
+    /* Resume */
+    
+    .container__resume {
+        padding-left: 15px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        max-width: 100%;
+    }
+
+  
+}
+
+
